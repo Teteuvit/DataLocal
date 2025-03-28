@@ -95,7 +95,8 @@ function meuEscopo() {
     }
 
 
-    dados.innerHTML = `${diaSemanaTexto}, ${diaData} de ${mesText} de ${ano}
-    <p>${zeroAEsquerda(hora)}:${zeroAEsquerda(min)}<p>`
+    dados.innerHTML = `<p> Data em   tempo real<p>
+    ${diaSemanaTexto}, ${diaData} de ${mesText} de ${ano}<p>
+    <p>${zeroAEsquerda(hora)}:${zeroAEsquerda(min)} Minutos <p>`
 }
 meuEscopo();
