@@ -53,31 +53,31 @@ function meuEscopo() {
             case 0:
                 mesText = 'Janeiro'
                 return mesText;
-            case 0:
+            case 1:
                 mesText = 'Fevereiro'
                 return mesText;
-            case 1:
+            case 2:
                 mesText = 'Março'
                 return mesText;
-            case 2:
+            case 3:
                 mesText = 'Abril'
                 return mesText;
-            case 3:
+            case 4:
                 mesText = 'Maio'
                 return mesText;
-            case 4:
+            case 5:
                 mesText = 'Junho'
                 return mesText;
-            case 5:
+            case 6:
                 mesText = 'Julho'
                 return mesText;
-            case 6:
+            case 7:
                 mesText = 'Agosto'
                 return mesText;
-            case 7:
+            case 8:
                 mesText = 'Setembro'
                 return mesText;
-            case 8:
+            case 9:
                 mesText = 'Outubro'
                 return mesText;
             case 10:
