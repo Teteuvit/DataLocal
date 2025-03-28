@@ -11,6 +11,10 @@ function meuEscopo() {
     const hora = data.getHours();
     const min = data.getMinutes();
 
+    function zeroAEsquerda (num) {
+        return num >= 10 ? num : `0${num}`;
+    }
+
 
 
     function diaSemanaFormat(diaSemana) {
@@ -92,6 +96,6 @@ function meuEscopo() {
 
 
     dados.innerHTML = `${diaSemanaTexto}, ${diaData} de ${mesText} de ${ano}
-    <p>${hora}:${min}<p>`
+    <p>${zeroAEsquerda(hora)}:${zeroAEsquerda(min)}<p>`
 }
 meuEscopo();
