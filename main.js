@@ -95,8 +95,8 @@ function meuEscopo() {
     }
 
 
-    dados.innerHTML = `<p> Data em   tempo real<p>
-    ${diaSemanaTexto}, ${diaData} de ${mesText} de ${ano}<p>
-    <p>${zeroAEsquerda(hora)}:${zeroAEsquerda(min)} Minutos <p>`
+    dados.innerHTML = `<scam> Data em   tempo real <scam>
+    <h1>${diaSemanaTexto}, ${diaData} de ${mesText} de ${ano}</h1> <h1>
+    ${zeroAEsquerda(hora)}:${zeroAEsquerda(min)} Minutos </h1>`
 }
 meuEscopo();
